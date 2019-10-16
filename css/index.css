@@ -326,10 +326,6 @@ footer nav a {
 	padding: 10px;
 }
 
-.strategy-content {
-	display: flex;
-	flex-flow: row;
-}
 .about-img {
 	display: flex;
 	justify-content: space-around;
@@ -338,11 +334,12 @@ footer nav a {
 	padding: 10px;
 }
 .bottom-content {
-	display: flex;
-	justify-content: space-around;
+	/* display: flex; */
+	/* justify-content: space-around; */
 	width: 900px;
 	margin: 0 auto;
 	padding: 10px;
+	border: 2px dashed dodgerblue;
 }
 
 .let-content {
@@ -350,21 +347,30 @@ footer nav a {
 	margin: 0 auto;
 	padding: 10px;
 	border: 1px solid green;
+	display: flex;
 }
 
 button {
 	border: 1px solid red;
-	display: flex;
-	flex-direction: column;
+	/* display: flex; */
+	/* flex-direction: column; */
 }
 .let-content h {
 	border: 1px solid purple;
-	display: flex;
-	flex-direction: column;
+	/* display: flex; */
+	/* flex-direction: column; */
 }
 p {
 	border: 1px solid blue;
 	padding: 30px;
-	display: flex;
-	flex-direction: column;
+	/* display: flex; */
+	/* flex-direction: column; */
+}
+.content-strategy {
+	border: 1px solid orange;
+}
+.final-content {
+	border: 2px solid yellowgreen;
+	width: 900px;
+	margin: 0 auto;
 }
