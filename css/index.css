@@ -166,14 +166,13 @@ p {
 	margin: 0 auto;
 }
 .nav-bar {
-	width: 925px;
+	width: 900px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 2%;
+	padding: 0 2%;
 	font-size: 14px;
-	
 }
 
 .header-img {
@@ -181,6 +180,10 @@ p {
 	width: 900px;
 	margin: 0 auto;
 	padding: 10px;
+	/* border: 1px solid purple; */
+}
+.banner {
+	width: 100%;
 }
 .top-content {
 	display: flex;
@@ -342,12 +345,26 @@ footer nav a {
 	padding: 10px;
 }
 
-.work-content {
-	display: flex;
-	flex-flow: row;
-}
 .let-content {
 	width: 900px;
 	margin: 0 auto;
 	padding: 10px;
+	border: 1px solid green;
+}
+
+button {
+	border: 1px solid red;
+	display: flex;
+	flex-direction: column;
+}
+.let-content h {
+	border: 1px solid purple;
+	display: flex;
+	flex-direction: column;
+}
+p {
+	border: 1px solid powderblue;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
 }
